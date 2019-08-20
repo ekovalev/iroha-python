@@ -180,6 +180,7 @@ class Iroha(object):
         """
         command_wrapper = commands_pb2.Command()
         field_name = Iroha._camel_case_to_snake_case(name)
+        print(field_name)
         internal_command = getattr(command_wrapper, field_name)
         for key, value in kwargs.items():
             if 'permissions' == key:

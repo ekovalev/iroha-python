@@ -225,25 +225,25 @@ DESCRIPTOR.message_types_by_name['TxList'] = _TXLIST
 DESCRIPTOR.enum_types_by_name['TxStatus'] = _TXSTATUS
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
-ToriiResponse = _reflection.GeneratedProtocolMessageType('ToriiResponse', (_message.Message,), dict(
-  DESCRIPTOR = _TORIIRESPONSE,
-  __module__ = 'endpoint_pb2'
+ToriiResponse = _reflection.GeneratedProtocolMessageType('ToriiResponse', (_message.Message,), {
+  'DESCRIPTOR' : _TORIIRESPONSE,
+  '__module__' : 'endpoint_pb2'
   # @@protoc_insertion_point(class_scope:iroha.protocol.ToriiResponse)
-  ))
+  })
 _sym_db.RegisterMessage(ToriiResponse)
 
-TxStatusRequest = _reflection.GeneratedProtocolMessageType('TxStatusRequest', (_message.Message,), dict(
-  DESCRIPTOR = _TXSTATUSREQUEST,
-  __module__ = 'endpoint_pb2'
+TxStatusRequest = _reflection.GeneratedProtocolMessageType('TxStatusRequest', (_message.Message,), {
+  'DESCRIPTOR' : _TXSTATUSREQUEST,
+  '__module__' : 'endpoint_pb2'
   # @@protoc_insertion_point(class_scope:iroha.protocol.TxStatusRequest)
-  ))
+  })
 _sym_db.RegisterMessage(TxStatusRequest)
 
-TxList = _reflection.GeneratedProtocolMessageType('TxList', (_message.Message,), dict(
-  DESCRIPTOR = _TXLIST,
-  __module__ = 'endpoint_pb2'
+TxList = _reflection.GeneratedProtocolMessageType('TxList', (_message.Message,), {
+  'DESCRIPTOR' : _TXLIST,
+  '__module__' : 'endpoint_pb2'
   # @@protoc_insertion_point(class_scope:iroha.protocol.TxList)
-  ))
+  })
 _sym_db.RegisterMessage(TxList)
 
 
